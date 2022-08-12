@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Millimetre Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Millimetre Regular'), url('./fonts/Millimetre-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Millimetre Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Millimetre Bold'), url('./fonts/Millimetre-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url('./fonts/manrope-v13-latin-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Roboto Flex';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url('./fonts/RobotoFlex-Regular.ttf') format('ttf');
+}
+body {
+  margin: 0;
+  font-family: 'Millimetre Regular', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+img,
+button,
+li {
+  cursor: pointer;
+}
+
+.wrapper {
+  position: relative;
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'Millimetre Bold';
+}
+h2 {
+  font-size: 18px;
+  font-family: 'Roboto Flex';
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+
+  margin: 0;
+}
+
+.links {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      margin: 0 12px;
+      list-style-type: none;
+    }
+  }
+}
+.li-links {
+  img {
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    &:hover {
+      -webkit-transform: scale(1.3);
+      transform: scale(1.3);
+    }
+  }
+}

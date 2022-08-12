@@ -1,0 +1,567 @@
+@import url(./adaptive_high.scss);
+@import url(./menu_adaptive.scss);
+
+@media (max-width: 768px) {
+  .main-back {
+    background-size: 225% 100%;
+    background-position: top;
+    .wrapper {
+      width: 100%;
+    }
+    .main-content {
+      width: 574px;
+    }
+    .header {
+      padding: 30px 10px 0 10px;
+    }
+  }
+  .category {
+    .menu {
+      padding: 0;
+      justify-content: space-between;
+    }
+  }
+  .news_content {
+    .wrapper {
+      width: 98%;
+      .news {
+        .news-block {
+          max-width: 360px;
+          height: 100%;
+          padding-bottom: 40px;
+          .news_text_3 {
+            top: 60px;
+          }
+          figure {
+            height: 207px;
+          }
+        }
+        .news-3 {
+          .fig-3 {
+            height: 480px;
+
+            img {
+              width: 480px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .reviews {
+    .reviews_row {
+      grid-template-columns: 1fr 1fr;
+      .reviews_card {
+        padding: 0 20px;
+      }
+    }
+  }
+  .article {
+    height: 276px;
+    background-size: 870px 280px;
+    background-position: left;
+    .article_text_2 {
+      margin-left: 147px;
+    }
+  }
+
+  .wrapper_links_subscribe {
+    width: 98%;
+    .links_subcribe {
+      .links {
+        width: 67%;
+        margin-left: 0;
+        .all-links {
+          width: 100%;
+        }
+        ul {
+          li {
+            margin: 0px 6px;
+          }
+        }
+      }
+      .subscribe {
+        width: 30%;
+        .subscribe_form {
+          flex-direction: column;
+          width: 100%;
+          .MuiFormControl-root {
+            width: 90%;
+            margin-right: 0;
+            margin-left: 0;
+          }
+          input {
+            width: 100%;
+            margin-right: 0;
+          }
+          div {
+          }
+          .subscribe_button {
+            width: 70%;
+          }
+        }
+      }
+    }
+  }
+
+  .article_2 {
+    background-size: 870px 280px;
+    background-position: left;
+    .article_text_2 {
+      margin-left: 147px;
+    }
+  }
+
+  .footer {
+    .wrapper {
+      width: 98%;
+      .footer_header {
+        ul {
+          padding-left: 0;
+          padding-right: 40px;
+          img {
+            margin-top: 0;
+          }
+          li {
+            padding: 22px 33px 20px;
+          }
+          h4 {
+            margin-top: 29px;
+          }
+        }
+      }
+    }
+    .links {
+      .li-links {
+        margin: 0 12px;
+      }
+    }
+  }
+  .menu-open {
+    .menu_footer {
+      .subscribe {
+        display: flex;
+        flex-direction: column;
+        .subscribe_button {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 690px) {
+  .main-back {
+    background-size: 225% 100%;
+    background-position: top;
+    .wrapper {
+      width: 100%;
+    }
+    .main-content {
+      width: 90%;
+    }
+    .header {
+      padding: 30px 10px 0 10px;
+    }
+  }
+  .news_content {
+    .wrapper {
+      width: 98%;
+      .news {
+        .news-block {
+          max-width: 100%;
+          padding-bottom: 40px;
+          .news_text {
+            .news_placeholder_1 {
+              font-size: 10px;
+            }
+            .news_title {
+              font-size: 22px;
+            }
+            .news_description {
+              font-size: 16px;
+            }
+          }
+          .news_text_3 {
+            bottom: 40px;
+            padding: 0 0 0 9px;
+          }
+          figure {
+            height: 207px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 663px) {
+  .footer {
+    .wrapper {
+      width: 98%;
+      .footer_header {
+        ul {
+          padding-top: 24px;
+          padding-left: 0;
+          padding-right: 0px;
+
+          li {
+            font-size: 12px;
+          }
+          h4 {
+            text-align: center;
+            margin-top: 29px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .main-back {
+    height: 100%;
+    background-size: 240% 100%;
+    background-position-x: -300px;
+  }
+  .news_content {
+    h2 {
+      padding-left: 15px;
+    }
+    .wrapper {
+      width: 100%;
+      margin: 0;
+      .news {
+        position: relative;
+        grid-template-columns: 1fr;
+        .news-block {
+          max-width: 420px;
+          height: 100%;
+          padding-bottom: 40px;
+          margin: 0 auto;
+          .news_text_3 {
+            width: 85%;
+            bottom: 100px;
+            top: auto;
+            padding: 0 0px 0 25px;
+          }
+          .news_text {
+            margin: 0 auto;
+            width: 90%;
+            .news_title {
+              font-size: 16px;
+            }
+            .news_description {
+              font-size: 14px;
+              line-height: 18px;
+            }
+          }
+          figure {
+            height: 300px;
+          }
+        }
+
+        .news-3 {
+          width: 90%;
+          margin: 0 auto;
+          .fig-3 {
+            height: 390px;
+            width: 100%;
+
+            img {
+              width: 100%;
+              margin: 0 auto;
+            }
+          }
+        }
+      }
+    }
+  }
+  .wrapper_links_subscribe {
+    width: 100%;
+    h2 {
+      margin: 0 0 14px 15px;
+    }
+    .links_subcribe {
+      flex-direction: column;
+      .links {
+        width: 100%;
+        margin-left: 0;
+
+        .all-links {
+          width: 100%;
+        }
+
+        ul {
+          flex-wrap: wrap;
+
+          li {
+            margin: 0px 6px;
+          }
+        }
+      }
+      .subscribe {
+        width: 100%;
+        margin: 0 auto;
+        .subscribe_form {
+          flex-direction: column;
+          width: 100%;
+          .MuiFormControl-root {
+            width: 65%;
+          }
+          input {
+            width: 100%;
+            margin-right: 0;
+          }
+          div {
+          }
+        }
+      }
+    }
+  }
+  .article {
+    .article_text {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+  .article_1 {
+    height: 276px;
+    background-size: 900px 280px;
+  }
+  .article_2 {
+    background-size: 700px 280px;
+    margin-top: 0;
+    .article_text {
+      margin-left: 80px;
+    }
+  }
+  .footer {
+    .wrapper {
+      width: 98%;
+      .footer_header {
+        ul {
+          padding-top: 24px;
+          flex-direction: column;
+          padding-left: 0;
+          padding-right: 0px;
+          img {
+            padding-bottom: 20px;
+          }
+          li {
+            padding: 20px 0;
+            font-size: 16px;
+          }
+          h4 {
+            text-align: center;
+            margin-top: 29px;
+          }
+        }
+      }
+    }
+    .links {
+      ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-left: 10px;
+        padding-right: 10px;
+        .li-links {
+          margin: 0 6px;
+        }
+      }
+    }
+    .copyright {
+      flex-direction: column;
+      justify-content: center;
+      .copy_sporthub {
+        margin: 0 auto;
+        margin-bottom: 14px;
+      }
+    }
+  }
+}
+@media (max-width: 420px) {
+  .main-back {
+    background-size: 140% 80%;
+    background-position-x: 0px;
+
+    .wrapper {
+      width: 100%;
+    }
+    .main-content {
+      width: 100%;
+      padding-top: 42px;
+      padding-bottom: 20px;
+      .main-content_text {
+        padding-left: 15px;
+      }
+      p {
+        font-size: 20px;
+      }
+      h5 {
+        font-size: 12px;
+      }
+    }
+    .header {
+      padding: 30px 10px 0 10px;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .reviews {
+    .reviews_row {
+      .reviews_card {
+        padding: 0 0px;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .main-back {
+    background-size: 140% 80%;
+    .wrapper {
+      width: 100%;
+    }
+    .main-content {
+      width: 100%;
+      padding-top: 42px;
+      padding-bottom: 20px;
+      .main-content_text {
+        padding-left: 15px;
+      }
+      p {
+        font-size: 20px;
+      }
+      h5 {
+        font-size: 12px;
+      }
+    }
+    .header {
+      padding: 30px 10px 0 10px;
+    }
+  }
+  .category {
+    .menu {
+      padding: 0;
+      justify-content: space-between;
+      overflow: auto;
+      .menu_li {
+        padding: 4px 12px 4px 15px;
+      }
+    }
+  }
+
+  .reviews {
+    .reviews_row {
+      grid-template-columns: 1fr;
+      .reviews_card {
+        padding: 0 20px;
+      }
+    }
+  }
+  .article {
+    height: 276px;
+    background-size: 800px 500px;
+    background-position: -200px;
+    .article_text {
+      width: 246px;
+      .article_tag {
+        font-size: 12px;
+        line-height: 16px;
+      }
+      .article_title {
+        font-size: 20px;
+        line-height: 23px;
+      }
+    }
+  }
+  .article_1 {
+    // background: url(../../public/img/backgroundInserted1\(right\).png);
+  }
+
+  .article_2 {
+    background-size: 870px 280px;
+    background-position-x: -290px;
+    .article_text_2 {
+      margin-left: 28px;
+      .article_tag {
+        font-size: 20px;
+        line-height: 23px;
+      }
+      .article_description {
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+  }
+
+  // .footer {
+  //   .wrapper {
+  //     width: 98%;
+  //     .footer_header {
+  //       ul {
+  //         padding-top: 24px;
+  //         flex-direction: column;
+  //         padding-left: 0;
+  //         padding-right: 0px;
+
+  //         img {
+  //           padding-bottom: 20px;
+  //         }
+  //         li {
+  //           padding: 20px 0;
+  //         }
+  //         h4 {
+  //           text-align: center;
+  //           margin-top: 29px;
+  //         }
+  //       }
+  //     }
+  //   }
+  //   .links {
+  //     ul {
+  //       justify-content: center;
+  //       flex-wrap: wrap;
+  //       padding-left: 10px;
+  //       padding-right: 10px;
+  //       .li-links {
+  //         margin: 0 6px;
+  //       }
+  //     }
+  //   }
+  //   .copyright {
+  //     flex-direction: column;
+  //     justify-content: center;
+  //     .copy_sporthub {
+  //       margin: 0 auto;
+  //       margin-bottom: 14px;
+  //     }
+  //   }
+  // }
+
+  .menu-open {
+    .menu_footer {
+      .subscribe {
+        display: flex;
+        flex-direction: column;
+        .subscribe_button {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 310px) {
+  .news_content {
+    .wrapper {
+      .news {
+        .news-block {
+          .news_text {
+            padding: 0 0 0 10px;
+          }
+        }
+      }
+    }
+  }
+}

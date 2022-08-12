@@ -1,0 +1,183 @@
+@media (max-width: 720px) {
+  .menu-open {
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 30px 50px 0px 46px;
+    }
+
+    .content_menu {
+      ul {
+        li {
+          width: 100px;
+        }
+      }
+      .sub-menu {
+        padding-left: 20px;
+        li {
+          margin-bottom: 32px;
+          font-size: 16px;
+        }
+        .li-last {
+          margin-bottom: 0;
+        }
+      }
+      .sport {
+        padding-right: 0px;
+        li {
+          width: 120px;
+          margin-bottom: 14px;
+          font-size: 14px;
+        }
+      }
+      .info_callback {
+        padding-left: 0;
+        li {
+          margin-bottom: 24px;
+          font-size: 16px;
+        }
+      }
+    }
+    .links {
+      padding-bottom: 78px;
+      margin: 0;
+      ul {
+        padding: 0;
+        flex-wrap: wrap;
+      }
+    }
+    .menu_footer {
+      display: flex;
+      justify-content: space-between;
+      p {
+        margin: 0 0 14px 0;
+        font-size: 12px;
+      }
+      .ads {
+        margin-left: 46px;
+        margin-bottom: 50px;
+      }
+      .subscribe {
+        margin-bottom: 32px;
+        p {
+          margin-bottom: 5px;
+        }
+        .MuiFormControl-root {
+          width: 100%;
+          margin-left: 0px;
+          margin: 0 auto;
+          label {
+            color: #fff;
+            z-index: 1111;
+            font-size: 14px;
+          }
+          input {
+            font-size: 14px;
+          }
+        }
+        .subscribe_button {
+          padding: 0;
+          width: 100%;
+          height: 40px;
+          margin: 0 auto;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 550px) {
+  .menu-open {
+    .menu_footer {
+      .subscribe {
+        margin-bottom: 32px;
+        margin-right: 0;
+        p {
+          margin-bottom: 5px;
+          margin-left: 20px;
+        }
+        .MuiFormControl-root {
+          width: 80%;
+          margin-left: 0px;
+          margin: 0 auto;
+          label {
+            color: #fff;
+            z-index: 1111;
+            font-size: 14px;
+          }
+          input {
+            font-size: 14px;
+          }
+        }
+        .subscribe_button {
+          padding: 0;
+          width: 80%;
+          height: 40px;
+          margin: 0 auto;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 450px) {
+  .subscribe {
+    margin-bottom: 32px;
+    margin-right: 0;
+    p {
+      margin-bottom: 5px;
+      margin-left: 30px;
+    }
+    .MuiFormControl-root {
+      width: 80%;
+      margin-left: 0px;
+      margin: 0 auto;
+      label {
+        color: #fff;
+        z-index: 1111;
+        font-size: 14px;
+      }
+      input {
+        font-size: 14px;
+      }
+    }
+    .subscribe_button {
+      padding: 0;
+      width: 100%;
+      height: 40px;
+      margin: 0 auto;
+      font-size: 12px;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .menu-open {
+    .content_menu {
+      .sub-menu {
+        padding-left: 0px;
+        margin-left: 5px;
+        li {
+          width: 100%;
+          font-size: 12px;
+        }
+      }
+      .sport {
+        padding-left: 9px;
+        padding-right: 5px;
+
+        li {
+          width: 100%;
+          font-size: 12px;
+        }
+      }
+      .info_callback {
+        padding-left: 0;
+        margin-left: -5px;
+        li {
+          width: 100%;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

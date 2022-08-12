@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Millimetre Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Millimetre Bold'), url('../../fonts/Millimetre-Bold.woff') format('woff');
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0 0 0;
+}
+.menu {
+  display: flex;
+}
+.burger {
+  position: relative;
+  width: 48px;
+  padding: 4px 25px;
+
+  &:after {
+    position: absolute;
+    content: '';
+    top: 7px;
+    height: 2px;
+    width: 48px;
+    background: #aaa;
+  }
+  &:before {
+    position: absolute;
+    content: '';
+    bottom: 8px;
+    height: 2px;
+    width: 48px;
+    background: #aaa;
+  }
+}
+
+.menu-li {
+  position: relative;
+  padding: 4px 25px;
+  list-style-type: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+  font-family: 'Roboto Flex';
+  font-style: normal;
+  transition: color 0.5s;
+  &:hover {
+    color: #ddd8d8;
+    transition: color 0.5s;
+  }
+  &:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #707375;
+
+    height: 1px;
+    transition: all 0.3s;
+  }
+
+  &:hover:after {
+    width: 100%;
+  }
+}

@@ -1,0 +1,51 @@
+.reviews {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  .reviews_row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+    text-align: center;
+    .reviews_card {
+      position: relative;
+      img {
+        margin-top: 20px;
+      }
+      &::before {
+        position: absolute;
+        content: '';
+        top: 20px;
+        left: 65px;
+        width: 48px;
+        height: 48px;
+        background: url(../../../public/img/icon-quote.svg);
+        background-size: 48px 48px;
+      }
+      .reviews_name {
+        font-family: 'Roboto Flex';
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 6px;
+      }
+      .reviews_job {
+        margin-bottom: 20px;
+        font-family: 'Roboto Flex';
+        font-weight: 400;
+        font-size: 11px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #000000;
+      }
+      .reviews_description {
+        font-family: 'Roboto Flex';
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 25px;
+        color: rgba(0, 0, 0, 0.6);
+      }
+    }
+  }
+}
